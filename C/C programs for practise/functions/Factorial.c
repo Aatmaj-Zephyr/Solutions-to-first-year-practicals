@@ -1,7 +1,6 @@
 #include <stdio.h>
-int factorial()
-{   int num;
-    scanf("%d",&num);
+int factorial(int num)
+{   
     int ans=1;
     for(int i=1;i<=num;i++){
         ans*=i;
@@ -11,7 +10,9 @@ int factorial()
 }
 int main(){
     int a;
-    a=factorial();
+    int num;
+    scanf("%d",&num);
+    a=factorial(num);
     printf("%d",a);
     return 0;
 }
