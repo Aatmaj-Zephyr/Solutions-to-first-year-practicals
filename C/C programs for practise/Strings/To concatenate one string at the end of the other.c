@@ -13,7 +13,7 @@ int main()
        if(a[i]=='\0'){
            for(int j=0;j<=20-i;j++){
                a[j+i]=b[j];
-               if(b[i]=='\0'){
+               if(b[j]=='\0'){
                    
                    break;
                }
