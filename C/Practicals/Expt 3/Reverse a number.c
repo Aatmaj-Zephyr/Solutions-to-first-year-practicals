@@ -2,8 +2,8 @@
 
 int main()
 {
-    printf("Hello World");
-int no2;
+   printf("Please enter the number ");
+   int no2;
          scanf("%d",&no2);
          int no=no2;
          int rev=0;
