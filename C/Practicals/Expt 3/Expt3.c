@@ -27,14 +27,14 @@ int no2;
          else{
              printf("Not a Paliendrome");
          }
-         
+         break;
          
          /////////////////////////////////////
     
     case 2: 
      
     printf("Please enter the number ");
-int no3;
+          int no3;
          scanf("%d",&no3);
          int sum=0;
          int a=0;
@@ -47,6 +47,7 @@ int no3;
          }
          while(a<no3);
          printf("%d",sum);
+         break;
          
     case 3:
     ;
