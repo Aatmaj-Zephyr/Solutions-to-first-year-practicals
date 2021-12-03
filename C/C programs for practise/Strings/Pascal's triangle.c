@@ -22,7 +22,7 @@ int a[25];
             b[i]=a[i];
         }
     }
-    printf("Hello World");
+    
 
     return 0;
 }
