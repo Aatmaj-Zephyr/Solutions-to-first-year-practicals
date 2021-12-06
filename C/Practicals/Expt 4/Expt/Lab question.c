@@ -12,7 +12,7 @@ int main()
         }
         printf("\n");
       }    
-    printf("Hello World");
+    
 
     return 0;
 }
