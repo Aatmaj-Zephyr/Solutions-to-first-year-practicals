@@ -7,9 +7,9 @@ FY Comps B
 
 int main()
 {
-    int a[20];
-    int temp=0;
-    //initialize array with values from th user
+   signed int a[20];
+    signed int temp=0;
+    //initialize array with values from the user
     for(int i=0;i<5;i++){//get first 5 values
        
        printf("... ");
@@ -19,9 +19,9 @@ int main()
     a[5]='\0';
     
     //sort (bubble sort)
-    for(int i=0;i<=20;i++){
+    for(int i=0;i<20;i++){
         for(int j=0;j<=i;j++){
-            if(a[j]=='\0'){
+            if(a[j+1]=='\0'){
                 break;
             }
             if(a[j]<a[j+1]){
