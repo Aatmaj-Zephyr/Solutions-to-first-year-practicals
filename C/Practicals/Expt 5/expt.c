@@ -4,7 +4,7 @@ FY Comps B
 
 *******************************************************************************/
 #include <stdio.h>
-
+# define End -100000
 int main()
 {
    signed int a[20];
@@ -16,12 +16,12 @@ int main()
         scanf("%d",&temp);
         a[i]=temp;
     }
-    a[5]='\0';
+    a[5]=End;
     
     //sort (bubble sort)
     for(int i=0;i<20;i++){
         for(int j=0;j<=i;j++){
-            if(a[j+1]=='\0'){
+            if(a[j+1]==End){
                 break;
             }
             if(a[j]<a[j+1]){
@@ -34,14 +34,14 @@ int main()
     
     
     //Get value from user and put it in the appropriate place
-    int val='\0',temp2;
+    int val=End,temp2;
     printf("Please enter value of the number ");
     scanf("%d",&val);
     for(int i=0;i<20;i++){
-        if(a[i]=='\0'){
+        if(a[i]==End){
             
             a[i]=val;
-            a[i+1]='\0';
+            a[i+1]=End;
             break;
         }
         if(a[i]<val){
@@ -53,7 +53,7 @@ int main()
     
     //print the array
     for(int i=0;i<20;i++){
-        if(a[i]=='\0'){
+        if(a[i]==End){
             break;
         }
         printf("%d ",a[i]);
