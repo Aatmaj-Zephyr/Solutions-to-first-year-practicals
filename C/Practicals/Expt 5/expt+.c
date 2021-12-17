@@ -2,7 +2,11 @@
 
 int main()
 {
-  int i,j,temp,k, a[20]={0}, size,size2, x;
+  signed int i,j,temp,k, a[20], size,size2, x;
+  for(int m=0;m<20;m++){
+      a[m]=-10000;
+  }
+
   printf("Enter the size of the array: ");
   scanf("%d",&size);
   printf("Enter the Numbers: \n");
@@ -39,7 +43,7 @@ int main()
       printf("Number %d: ", k+1);
       scanf("%d", &x);
       for(i=0;i<size+k+1;i++)   
-        {
+        { 
           if(x>a[i])
             {
               temp = a[i];
