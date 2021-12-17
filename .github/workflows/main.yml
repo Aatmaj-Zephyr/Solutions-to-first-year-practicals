@@ -13,6 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
       - name: Add comments to src/
-        uses: pabio/header-comments@v1.0.5c
+        uses: pabio/header-comments@v1.0.4c
       - name: Create PR with changes
         uses: peter-evans/create-pull-request@v3
