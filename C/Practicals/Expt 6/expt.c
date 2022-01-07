@@ -11,8 +11,11 @@ struct player playerlist[10];//overflow error not considered.
 int choice=0;
 
 for(int i=0;i<=4;i++){//take 4 entries
+printf("Please enter player name  ");
 scanf("%s",playerlist[i].name);
+printf("Please enter player matches  ");
 scanf("%d",&playerlist[i].matches);
+printf("Please enter player best bowling figure  ");
 scanf("%d",&playerlist[i].bestbowl);
 printf("\n");
 }
@@ -27,9 +30,12 @@ scanf("%d",&choice);
 switch(choice){
 case 1:
 ////part a///////
-printf("Take an element \n");
+printf("Take an player \n");
+printf("Please enter player name  ");
 scanf("%s",playerlist[5].name);
+printf("Please enter player matches  ");
 scanf("%d",&playerlist[5].matches);
+printf("Please enter player best bowling figure  ");
 scanf("%d",&playerlist[5].bestbowl);
 printf("\n");
 length=length+1;
@@ -74,10 +80,15 @@ if(playerlist[i].matches>=playerlist[i+1].matches){
  
 }
  
- //print the array
+ //print the array in tabular
+ printf("Sorted on descending order- worst players first, with lesser matches played and lower bowling figures\n");
+ printf("name     ");
+ printf("matches     ");
+ printf("best bowling figure     \n");
+ 
  for(int i=0;i<=length;i++){
-printf("%s \n",playerlist[i].name);
-printf("%d \n",playerlist[i].matches);
+printf("%s             ",playerlist[i].name);
+printf("%d             ",playerlist[i].matches);
 printf("%d \n",playerlist[i].bestbowl);
 printf("\n");
 }
@@ -110,7 +121,7 @@ printf("\n");
  break;
  case 4:
  
- printf("Who do you want to search? (Will ignore if not found)") ;
+ printf("Who do you want to search? ") ;
  ///part d//////
 scanf("%s",searcher);
  for(int i=0;i<=length;i++){
