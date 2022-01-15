@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2022-01-14T08:30:35.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="BJdokLYn05qYDkSmGE95" version="16.2.6" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1018" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="RuFuLWjabWopFW9vj4ai-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuFuLWjabWopFW9vj4ai-0" target="RuFuLWjabWopFW9vj4ai-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-0" value="Take values from the user. n= rows of first matrix. Create a blank array of size n by n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="351" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuFuLWjabWopFW9vj4ai-1" target="RuFuLWjabWopFW9vj4ai-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-1" value="Multiply n row by n column. and put in the answer matrix&lt;br&gt;&amp;nbsp;n--" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="351" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuFuLWjabWopFW9vj4ai-3" target="RuFuLWjabWopFW9vj4ai-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="640" />
+              <mxPoint x="230" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RuFuLWjabWopFW9vj4ai-3" target="RuFuLWjabWopFW9vj4ai-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-3" value="n=0?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="371" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-6" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="311" y="618" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-7" value="Matrix multiplication is over" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="351" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RuFuLWjabWopFW9vj4ai-9" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="411" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
