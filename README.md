@@ -1,7 +1,7 @@
-# Solutions-to-first-year-practicals
+# Solutions-to-first-year-practicals @Somaiya Vidyavihar University
 Work in progress.
 
-This repository contains solutions to FY comps practicals.
+This repository contains solutions to FY comps practicals SVU
 
 Please do not copy this material.
 
