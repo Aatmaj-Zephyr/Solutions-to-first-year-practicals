@@ -1,5 +1,5 @@
 /******************************************************************************
-
+Aatmaj 16010121110
 *******************************************************************************/
 #include <stdio.h>
 int X1=-1;
@@ -34,7 +34,6 @@ int x3(){
 int main()
 {   int choice;
 char choicechr;
-    printf("Hello World");
     for (int i=3;i>0;i--){
     printf("\nplease enter the choice:  ");
 scanf(" %c",&choicechr);
