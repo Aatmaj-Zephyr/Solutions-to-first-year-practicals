@@ -1,4 +1,6 @@
 The problems are given as below-
+- Strings
+1) Copy two strings using `strcpy()`
 
 - File handeling
 1) Check if numbers from 1-10 are odd or even and put in a file.
