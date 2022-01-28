@@ -1,42 +1,54 @@
+/******************************************************************************
 
+*******************************************************************************/
 #include <stdio.h>
+int X1=-1;
+int X2=-1;
+int X3=-1;
+int x2(){
+    X2=X2*-1;
+    return X2*-1;
+}
+int x1(){
+    if(X1>0){
+        X1=X1*-1;
+        return x2();
+    }
+    else{
+        X1=X1*-1;
+        return -1;
+    }
+}
 
+int x3(){
+     if(X3<0){
+         X3=X3*-1;
+        return x2();
+    }
+    else{
+        X3=X3*-1;
+        return 1;
+    }
+    
+}
 int main()
-{   
-int x1,x2,x3;
-x1=-1;
-x2=-1;
-x3=-1;
-int choice;
+{   int choice;
 char choicechr;
-for(int i=0;i<3;i++){
-printf("\nplease enter the choice:  ");
+    printf("Hello World");
+    for (int i=3;i>0;i--){
+    printf("\nplease enter the choice:  ");
 scanf(" %c",&choicechr);
 if(choicechr=='A'){
-    choice=-1;
+    choice=x1();
 }
 else if(choicechr=='B'){
-    choice=1;
+    choice=x3();
 }
-if(choice>0){
-//printf("%d",choice+x1+x2);
-x1=x1*-1;
-x2=x2*-1;
-}
-else{
-//printf("%d",choice+x1+x3);
-x2=x2*-1;
-x3=x3*-1;
-}
-printf("\nAnswer=");
-if(choice+x1+x3>0){
-    printf("D");
-}
-else if(choice+x1+x3<0){
+if(choice<0){
     printf("C");
 }
-}
-
-
-    return 0;
+else if(choice>0){
+    printf("D");
+}}
+return 0;
 }
