@@ -42,7 +42,7 @@ int main()
           break;
 
         case 2:
-          //delete
+          //delete all values
           free(pointer);
           fill=0;
           break;
