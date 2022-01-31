@@ -4,3 +4,5 @@ This repository is ment only for promoting students and helping needy students, 
 
 
 For any doubts, please [raise an issue](https://github.com/Aatmaj-Zephyr/Solutions-to-first-year-practicals/issues/new?assignees=Aatmaj-Zephyr&labels=Doubt&template=doubt.md&title=Doubt) for seeking help.
+
+ Wonderpro is not responsible for any misuse of this material.
