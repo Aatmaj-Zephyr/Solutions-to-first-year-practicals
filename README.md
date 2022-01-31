@@ -5,7 +5,8 @@ This repository contains solutions to FY computer science practicals at SVU.
 
 Please do not copy this material. This material is intended for Learning and rferencing and not for copying.
 
-This is done with the intention of helping students only.
+This is done with the intention of helping students only.  Aatmaj is not responsible for any misuse of this material.
+
 
 ____
 
