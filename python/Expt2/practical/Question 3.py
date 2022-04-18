@@ -1,6 +1,6 @@
 
 '''
-Write a python program to take list values as input parameters and returns another list without any duplicates.
+Write a program that takes a string as input from user and computes the frequency of each letters. Use a variable of dictionary type to maintain the count.
 '''
 
 value=input("Please enter a valid string ") #accept value from user
