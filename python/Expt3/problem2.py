@@ -4,7 +4,8 @@ while (True): # until a is valid
     try:
         a=int(a) #a is int
         break
-    except:
+    except ValueError:
+        print("Invalid entry!")
         pass
 Sum=0 #initiate to 0
 
