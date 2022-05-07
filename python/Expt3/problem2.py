@@ -1,21 +1,20 @@
-a=''
-while (True): # until a is valid
-    a=input("Please enter a number:") #take number input
+a = ''
+while (True):  # until a is valid
+    a = input("Please enter a number:")  #take number input
     try:
-        a=int(a) #a is int
+        a = int(a)  #a is int
         break
     except ValueError:
         print("Invalid entry!")
         pass
-Sum=0 #initiate to 0
+Sum = 0  #initiate to 0
 
 for i in str(a):
-  Sum=Sum+int(i)**3 #cube and sum
-if(Sum==a):
+    Sum = Sum + int(i)**3  #cube and sum
+if (Sum == a):
     print("Yes. It is aarmstrong number.")
 else:
     print("No. Not a armstrong number.")
-    
 '''
 Test cases
 
