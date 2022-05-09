@@ -19,10 +19,10 @@ if (len(re.findall(r"\D", txt)) != 3):  #check for letters
 elif (len(re.findall(r"-", txt)) != 3):  #check for hyphens
     print("incorrect positioning of hyphens")
 
-
 elif (len(txt) != 16 + 3):  #check for word count
     print("incorrect word count")
-elif (["1" if(len(i)==4) else "2" for i in txt.split("-")]!=['1', '1', '1', '1']):  #check for hyphens positions
+elif (["1" if (len(i) == 4) else "2" for i in txt.split("-")] !=
+      ['1', '1', '1', '1']):  #check for hyphens positions
     print("misplaced hyphens")
 elif (len(re.findall(r"^4|^5|^6", txt)) != 1):  #check for 456 beginning
     print("incorrect beginning")
