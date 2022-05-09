@@ -1,4 +1,5 @@
 import re
+
 txt = "4e56-3352-3456-3215"
 '''
 True test cases
@@ -13,13 +14,13 @@ False test cases
 
 
 '''
-if(len(re.findall(r"\D", txt))!=3): #check for letters
+if (len(re.findall(r"\D", txt)) != 3):  #check for letters
     print("incorrect - letters present")
-elif(len(re.findall(r"-", txt))!=3): #check for hyphens
-    print("incorrect positioning of hyphens")    
-elif(len(txt)!=16+3): #check for word count
-    print("incorrect word count") 
-elif(len(re.findall(r"^4|^5|^6", txt))!=1): #check for 456 beginning
-    print("incorrect beginning") 
+elif (len(re.findall(r"-", txt)) != 3):  #check for hyphens
+    print("incorrect positioning of hyphens")
+elif (len(txt) != 16 + 3):  #check for word count
+    print("incorrect word count")
+elif (len(re.findall(r"^4|^5|^6", txt)) != 1):  #check for 456 beginning
+    print("incorrect beginning")
 else:
     print("correct")
