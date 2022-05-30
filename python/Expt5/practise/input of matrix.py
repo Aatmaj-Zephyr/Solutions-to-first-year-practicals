@@ -1,5 +1,5 @@
 #take matrix input
-def mat_input()
+def mat_input():
     m=int(input("Please enter m "))
     n=int(input("Please enter n "))
     a=[]
