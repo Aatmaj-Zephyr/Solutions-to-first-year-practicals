@@ -1,23 +1,23 @@
-a={}
-for ptr in range(0,10):
+a = {}
+for ptr in range(0, 10):
     try:
-        x=int(input("Please enter a value "))
+        x = int(input("Please enter a value "))
     except:
-     print("Incorrect value")
-     continue
+        print("Incorrect value")
+        continue
     if x not in a:
-        a[x]=1
+        a[x] = 1
     else:
-        a[x]=a[x]+1
-   
+        a[x] = a[x] + 1
+
 print(a)
 print(max(a))
 print(min(a))
 
-b=max(a.values())
+b = max(a.values())
 for i in a:
-    if a[i]==b:
-        print("Mode/s=",i)
+    if a[i] == b:
+        print("Mode/s=", i)
 '''
 test cxase
 Please enter a value 1
