@@ -12,11 +12,15 @@ output
  [43 50]]
 '''
 import numpy as np
-def mat_mul(p,q):
-    P=np.array(p)
-    Q=np.array(q)
+
+
+def mat_mul(p, q):
+    P = np.array(p)
+    Q = np.array(q)
     try:
-     print(P@Q)
+        print(P @ Q)
     except:
         print("Invalid matrix input")
-mat_mul(a,b)
+
+
+mat_mul(a, b)
