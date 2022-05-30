@@ -12,9 +12,13 @@ output
  [ 0.875 -0.375 -0.125]]
 '''
 import numpy as np
+
+
 def inverse(a):
-    a=np.array(a)
-    if(abs(np.linalg.det(a))<=0.00001):
+    a = np.array(a)
+    if (abs(np.linalg.det(a)) <= 0.00001):
         return "invalid"
     return np.linalg.inv(a)
+
+
 print(inverse(a))
