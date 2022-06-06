@@ -1,5 +1,6 @@
 def palindrome(x):
-    return x[::-1]==x
+    return x[::-1] == x
+
 
 print(palindrome(input("Please enter a string ")))
 '''
