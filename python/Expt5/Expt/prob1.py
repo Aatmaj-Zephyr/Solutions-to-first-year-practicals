@@ -1,10 +1,10 @@
-odd=lambda x: [print(k) if (k%2==0) else None for k in x]
-even=lambda x: [print(k) if (k%2!=0) else None for k in x]
-    
-a=[]
-for i in range(0,5):
+odd = lambda x: [print(k) if (k % 2 == 0) else None for k in x]
+even = lambda x: [print(k) if (k % 2 != 0) else None for k in x]
+
+a = []
+for i in range(0, 5):
     try:
-     a.append(int(input("Please enter a number ")))
+        a.append(int(input("Please enter a number ")))
     except:
         print("invalid input")
 
@@ -12,7 +12,6 @@ print("Odd--")
 odd(a)
 print("Even---")
 even(a)
-
 '''
 Please enter a number 1
 Please enter a number 2
