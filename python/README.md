@@ -9,3 +9,8 @@ For any doubts, please [raise an issue](https://github.com/Aatmaj-Zephyr/Solutio
 
 
  The author/s is not responsible for any misuse of this material.
+
+
+______
+
+# [FULL PYTHON FREE COURSE](https://dev.to/aatmaj/series/13315) by Aatmaj-Zephyr
